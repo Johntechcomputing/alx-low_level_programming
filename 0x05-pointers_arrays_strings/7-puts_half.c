@@ -1,19 +1,25 @@
 #include <main.h>
 /**
  * puts_half - prints half of a string
- * @str: String to be printed
- * Return: void
+ * if odd len, n = (length_of_the_string - 1)/2
+ * @str: input
+ * Return: half of input
  */
 void puts_half(char *str)
 {
-int i;
-int k;
-int count = 0;
+	int i, j, longi;
 
-for (i = 0; str[i] != '\0'; i++)
-	count++;
-	k = (count - 1) / 2;
-for (i = k + 1; str[i] != '\0'; i++)
-	_putchar(str[i]);
-	_putcahr('\n');
+	longi = 0;
+
+	for (i = 0, str[i] != '\0'; a++)
+		longi++;
+
+	j = (longi / 2);
+
+	if ((longi % 2) == 1)
+		j = ((longi + 1) / 2);
+	for (i = n; str[i] != '\0'; i++
+			_putchar(str[i];
+	_putchar('\n');
 }
+
