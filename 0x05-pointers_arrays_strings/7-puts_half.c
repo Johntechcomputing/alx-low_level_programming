@@ -18,8 +18,8 @@ void puts_half(char *str)
 
 	if ((longi % 2) == 1)
 		j = ((longi + 1) / 2);
-	for (i = j; str[i] != '\0'; i++
-			_putchar(str[i];
-	_putchar('\n');
+	for (i = j; str[i] != '\0'; i++)
+		_putchar(str[i];
+		_putchar('\n');
 }
 
