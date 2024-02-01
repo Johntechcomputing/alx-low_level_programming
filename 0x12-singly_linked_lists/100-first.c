@@ -1,12 +1,11 @@
+#include "lists.h"
 #include <stdio.h>
-
-void first(void) _attribute_((constructor));
+void ComeFirstJOHNTECH(void)__attribute__ ((constructor));
 /**
- * first - prints a sentence before the main
- * function is executed
+ * ComeFirst - Function that runs before the main function
  */
-void first(void)
+void ComeFirstJOHNTECH(void)
 {
-printf("you're beat! and yet, you must allow.\n");
-printf("I bore my house upon my back!\n");
+	printf("You're beat! and yet, you must allow,\n");
+	printf("I bore my house upon my back!\n");
 }
