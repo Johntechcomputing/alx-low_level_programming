@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- * binary_to_uint - Function to convert a binary number to unsigned int
- * @b: Pointer to a string that contain a binary number
- * Return: Unsigned int with decimal value of binary number, or 0 if error
+ * binary_to_uint - function converts a binary number to an unsigned int.
+ * @b: pointer to a string containing a binary number
+ *
+ * Return: unsigned int with decimal value of binsry number, or 0 if error
  */
 unsigned int binary_to_uint(const char *b)
 {
 	int a;
 	unsigned int num;
 
-	num = o;
+	num = 0;
 	if (!b)
 		return (0);
 	for (a = 0; b[a] != '\0'; a++)
