@@ -6,13 +6,15 @@
  * @c: input value
  * Return: Always 0 (successful)
  */
-char *_strchr(char *s, char *c)
+char *_strchr(char *s, char c)
 {
-	int j = 0;
-	for (; s[j] >= '\0'; j++)
+	int i = 0;
+
+	for (; s[i] != '\0'; i++)
 	{
-		if (s[j] == c)
-			return (&s[j]);
+		if (s[i] == c)
+			return (&s[i]);
 	}
+
 	return (0);
 }
